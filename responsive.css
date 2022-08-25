@@ -1,0 +1,64 @@
+@media screen and (max-width: 1120px) {
+    .nav-list, .nav-contact, 
+    nav::after, .dot-1, .dot-2, 
+    .info-1::after, .info-2::after{
+        display:none;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    nav .fa-bars {
+        display: block;
+    }
+
+    .heading{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 4rem;
+    }
+
+    .info-1, .info-2{
+        position: initial;
+    }
+
+    .app{
+        right: 50%;
+        top: 35rem;
+    }
+
+   .bulb{
+        bottom: 6.5rem;
+        right: 50%;
+    }
+
+
+}
+
+ 
+@media only screen and (max-width: 891px) {
+    nav img[alt='actions'] {
+      display: none;
+    }
+
+    .app{
+        top: 37rem;
+    }
+    
+  }
+  
+@media only screen and (max-width: 664px) {
+    .app{
+        top: 39rem;
+    }
+  } 
